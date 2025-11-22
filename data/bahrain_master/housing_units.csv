@@ -1,0 +1,21 @@
+housing_type,governorate,housing
+Flat,Capital,120497
+Traditional House,Capital,1466
+Flat,Muharraq,38100
+Conventional House,Muharraq,3042
+Flat,Northern,27343
+Conventional House,Northern,2082
+Flat,Southern,27511
+Others,Capital,11948
+Traditional House,Muharraq,4088
+Others,Muharraq,5404
+Traditional House,Northern,960
+Others,Northern,5773
+Villa,Southern,24785
+Conventional House,Southern,1945
+Traditional House,Southern,567
+Villa,Capital,28385
+Conventional House,Capital,4099
+Villa,Muharraq,24242
+Villa,Northern,49509
+Others,Southern,5380

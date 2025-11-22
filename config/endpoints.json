@@ -1,0 +1,48 @@
+{
+  "notes": "Add new endpoints to the 'endpoints' array. Each entry can be a string URL or an object {\"url\": \"...\", \"headers\": {...}}. Replace placeholder URLs with the real export links (use /exports/csv when available).",
+  "endpoints": [
+    {
+      "url": "https://data.gov.bh/api/explore/v2.1/catalog/datasets/01-population-by-nationality-sex-agegroups/exports/csv",
+      "description": "Population by nationality, sex, agegroups (CSV export)"
+    },
+    {
+      "url": "REPLACE_WITH_LABOUR_CSV_EXPORT_URL",
+      "description": "Labour dataset CSV export (replace this placeholder with the real export URL)"
+    },
+    {
+      "url": "REPLACE_WITH_OCCUPATION_WORKERS_CSV_EXPORT_URL",
+      "description": "Occupation workers dataset CSV export (replace placeholder)"
+    },
+    {
+      "url": "REPLACE_WITH_HOUSEHOLDS_CSV_EXPORT_URL",
+      "description": "Households dataset CSV export (replace placeholder)"
+    },
+    {
+      "url": "REPLACE_WITH_POPULATION_DENSITY_CSV_EXPORT_URL",
+      "description": "Population density dataset CSV export (replace placeholder if different from population)"
+    },
+    {
+      "url": "REPLACE_WITH_HOUSING_UNITS_CSV_EXPORT_URL",
+      "description": "Housing units dataset CSV export (replace placeholder)"
+    },
+    {
+      "url": "REPLACE_WITH_STUDENTS_CSV_EXPORT_URL",
+      "description": "Students dataset CSV export (replace placeholder)"
+    },
+    {
+      "url": "REPLACE_WITH_TEACHERS_CSV_EXPORT_URL",
+      "description": "Teachers dataset CSV export (replace placeholder)"
+    },
+    {
+      "url": "REPLACE_WITH_HIGHER_EDUCATION_CSV_EXPORT_URL",
+      "description": "Higher education dataset CSV export (replace placeholder)"
+    },
+
+    {
+      "url": "file:///mnt/data/Untitled25.ipynb",
+      "description": "LOCAL TEST FILE (developer): previously uploaded notebook used for local testing only"
+    }
+  ],
+
+  "add_new_here": "To add new endpoints: edit this file and append either a string URL or an object with {\"url\": \"...\", \"headers\": {...}, \"description\": \"...\"}. For endpoints that require headers (Authorization), pass them in the headers object. Example: {\"url\": \"https://api.example.com/export.csv\", \"headers\": {\"Authorization\": \"Bearer TOKEN\"}}"
+}
